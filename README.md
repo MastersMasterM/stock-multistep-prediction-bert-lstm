@@ -11,7 +11,7 @@ All models are implemented in **Python with PyTorch**, and performance is evalua
 ### 🔹 Transformer-Based Models (BERT, RoBERTa)
 
 <p align="center">
-  <img src="transformer-based.png" alt="Transformer-Based Model Structure" width="450"/>
+  <img src="transformer-based.png" alt="Transformer-Based Model Structure" width="200"/>
 </p>
 
 These models use pretrained transformer encoders originally developed for natural language processing (NLP), such as BERT and RoBERTa, without task-specific fine-tuning for time-series forecasting. They are applied here to sequences of stock indicators by treating time-series data as token-like input, leveraging the transformers’ ability to model contextual relationships. However, they are not inherently optimized for sequential numeric data, which limits their forecasting performance in this context.
